@@ -1,0 +1,15 @@
+{
+  "name": "playjs",
+  "version": "1.0.0",
+  "description": "Experimenting with JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "author": "OS",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-node": "^1.14.5"
+  }
+}

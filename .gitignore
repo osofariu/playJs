@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules
+
+# configuration files for accessing gitlab and github
+app/config/*settings.json
+
+# dbfile, anywhere
+**/dbfile
+
+# IDEA stuff
+**/.idea/workspace.xml
+**/.idea/tasks.xml
