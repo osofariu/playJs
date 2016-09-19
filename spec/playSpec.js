@@ -8,7 +8,6 @@ describe("classes can extend other classes", function () {
         area() {
             return 0
         }
-
         circumference() {
             return 0
         }
@@ -19,11 +18,9 @@ describe("classes can extend other classes", function () {
             super()
             this.radius = radius
         }
-
         area() {
             return Math.PI * this.radius * this.radius
         }
-
         circumference() {
             return 2 * Math.PI * this.radius
         }
@@ -79,7 +76,7 @@ describe("classes can extend other classes", function () {
     })
 })
 
-describe("exploring classes", function () {
+describe("exploring classes and generators", function () {
 
     class Polygon {
         constructor(height, width) {
