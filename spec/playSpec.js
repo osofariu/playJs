@@ -66,12 +66,12 @@ describe("classes can extend other classes", function () {
         props(new Rectangle(3, 4))
         props(new Shape())
 
-        function props(o) {
-            for (let p in o) {
-                if (!o.hasOwnProperty(p)) {
-                    console.log(`parent property: ${p}: ${o[p]}`)
+        function props(object) {
+            for (let property in object) {
+                if (!object.hasOwnProperty(property)) {
+                    console.log(`parent property: ${property}: ${object[property]}`)
                 } else {
-                    console.log(`object property: ${p}: ${o[p]}`)
+                    console.log(`object property: ${property}: ${object[property]}`)
                 }
             }
         }
